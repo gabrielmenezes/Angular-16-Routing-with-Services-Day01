@@ -10,3 +10,5 @@ After completing this course participants will be able to:
 •	Generate child routes
 •	Restrain certain components from being loaded until needed
 •	Use middleware to support lazy loaded components
+
+Angular 17/18 has launched. It is an important milestone for the Angular team. These versions will continue with stand-alone components and Signals. Most of the changes has to do with server-side rendering, hydration, deferrable views, image optimization and animations. There are also some new template directives with control flow. Version focusses mainly on state management and other features that will make Angular applications faster, more powerful, and easier to develop and test.
