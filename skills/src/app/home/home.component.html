@@ -1,0 +1,21 @@
+<div class="container">
+  <div>
+    <button type="button" (click)="goToLogin()">Login</button>
+  </div>
+  <div class="mt-4">
+    <div>
+      <a
+        routerLink="active"
+        [routerLink]="['/login', 1]"
+        [queryParams]="{ edit: 0 }"
+        >login Axle</a
+      >
+    </div>
+    <div>
+      <a routerLink="active" [routerLink]="['/login', 2]">login Jane</a>
+    </div>
+    <div>
+      <a routerLink="active" [routerLink]="['/login', 3]">login Mary</a>
+    </div>
+  </div>
+</div>
